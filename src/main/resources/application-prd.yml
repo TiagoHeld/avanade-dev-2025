@@ -1,10 +1,10 @@
 spring:
   datasource:
-    url: jdbc:postgresql://ballast.proxy.rlwy.net:13038/railway
+    url: jdbc:postgresql://crossover.proxy.rlwy.net:21006/railway
     username: postgres
-    password: ltzVOEiLoreQFRMesCvwttwDOaLQVEMi
+    password: YHHHvJCtRbJOTGOjaGutRcfrHbmJAaEx
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
-      ddl-auto: validate  # ou 'create', dependendo de como você quer gerenciar o esquema
+      ddl-auto: create  # ou 'create', dependendo de como você quer gerenciar o esquema
     database-platform: org.hibernate.dialect.PostgreSQLDialect
